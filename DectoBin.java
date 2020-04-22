@@ -7,7 +7,7 @@ public class Convert
         int n, a;
         String x = "";
         Scanner s = new Scanner(System.in);
-        System.out.print("Enter any decimal number : ");
+        System.out.print("Enter decimal number : ");
         n = s.nextInt();
         while(n > 0)
         {
