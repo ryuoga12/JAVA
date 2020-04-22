@@ -1,10 +1,11 @@
 import java.util.*;
 import java.io.*;
 class Armstrong{  
-  public static void main(String[] args)  {  
+  public static void main(String[] args)  
+    {  
     int c=0,a,temp,n;
     Scanner s=new Scanner(System.in);
-    System.out.print("Enter a number : ");
+    System.out.print("Enter  number : ");
     n=s.nextInt();
     temp=n;  
     while(n>0)  
@@ -16,6 +17,6 @@ class Armstrong{
     if(temp==c)  
       System.out.println("armstrong number");   
     else  
-      System.out.println("Not armstrong number");   
+      System.out.println("Not a armstrong number");   
    }  
 } 
